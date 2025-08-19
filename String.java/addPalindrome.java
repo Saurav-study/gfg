@@ -7,7 +7,7 @@
 // Input: s = "abc"
 // Output: 2
 // Explanation: Add 'b' and 'c' at front of the above string to make it palindrome: "cbabc"
-class Solution {
+class addPalindrome {
     private int[] computeLPS(String str) {
         // code here
         int n=str.length();
