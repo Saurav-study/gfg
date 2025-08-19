@@ -7,7 +7,7 @@
 // Input: s1 = "abcd", s2 = "cdab"
 // Output: true
 // Explanation: After 2 right rotations, s1 will become equal to s2.
-class Solution {
+class StringRotation {
     public boolean areRotations(String s1, String s2) {
         // code here
    if(s1.length()!=s2.length())return false;
