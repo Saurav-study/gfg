@@ -5,7 +5,7 @@
 // Input: s = "geeksforgeeks"
 // Output: 'f'
 // Explanation: In the given string, 'f' is the first character in the string which does not repeat.
-class Solution {
+class nonRepeatingchar {
     public char nonRepeatingChar(String s) {
         // code here
         int []f=new int[26];
